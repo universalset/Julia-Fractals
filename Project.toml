@@ -1,0 +1,9 @@
+name = "JuliaFractals"
+uuid = "bdd719ed-e3da-4779-b853-751204f97b0e"
+authors = ["Brian Rice <universalset@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"

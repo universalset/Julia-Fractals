@@ -14,10 +14,11 @@ Run the Julia REPL.
 $ julia
 ```
 
-Enter Pkg and activate.
+Enter Pkg, activate and instantiate.
 ```
 julia> ] 
 pkg> activate .
+pkg> instantiate
 ```
 Now hit backspace to exit pkg.
 

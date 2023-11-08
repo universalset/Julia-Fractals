@@ -94,7 +94,7 @@ for i in 1:5
     randomjulia = showimg(
         juliaset(cval)
     )
-    save("random_interesting_julia_" + string(i) + ".gif", randomjulia)
+    save("random_interesting_julia_" * string(i) * ".gif", randomjulia)
 end
 
 for i in 1:5
@@ -102,7 +102,7 @@ for i in 1:5
     randomjulia = showimg(
         juliaset(cval)
     )
-    save("random_mandelbrotedge_julia_" + string(i) + ".gif", randomjulia)
+    save("random_mandelbrotedge_julia_" * string(i) * ".gif", randomjulia)
 end
 
 
